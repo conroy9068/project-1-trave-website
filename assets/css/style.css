@@ -57,3 +57,69 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* hero image and cover text */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image-cranes.png') no-repeat center center;
+
+    /* animates zoom for hero image
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: zoom; */
+}
+
+/* create the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#crane-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image-cranes.png') no-repeat center center;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 300px;
+    
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(80, 80, 80, 0.7);
+
+    top: 100px;
+    left: 450px;
+
+    position: absolute;
+}
+
+#left-card {
+    padding-top: 30px;
+    width: 40%;
+    float: left;
+}
