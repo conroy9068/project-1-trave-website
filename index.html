@@ -34,7 +34,7 @@
 
     <!-- This is the hero section -->
     <section class="hero-outer">
-        <div id="hero-image"></div>
+        <div class="hero-image"></div>
 
         <!-- This is the cover text -->
         <div id="cover-text">
@@ -47,7 +47,7 @@
     </section>
 
     <!-- This is the challenges section -->
-    <section class="challenges-section">
+    <section class="challenges-section" style="background-color: red;">
         <div class="challenges-h2">
             <h2>Do You Face These Challenges?</h2>
         </div>
@@ -70,7 +70,7 @@
     </section>
 
     <!-- This is the solution section -->
-    <section class="solution-section">
+    <section class="solution-section" style="background-color: aquamarine;">
         <div class="solution-section-header">
             <h2>Gain Control. Improve Your Margins</h2>
             <p>Gain a new level of transparency and control over your construction business with our made to measure
@@ -87,23 +87,26 @@
                 <div class="solution-box">Item four</div>
             </div>
         </div>
-        SOLUTION SECTION ABOVE
     </section>
 
     <!-- This is the value proposition section -->
-    <section id="value-prop-section">
-        <div>
-            <h2>Our Value Proposition</h2>
-            <p>Our value proposition is to help construction companies to digitally transform their business by
-                providing them with a suite of digital tools that will help them to improve their margins and
-                increase their productivity.
-            </p>
+    <section class="value-prop-section" style="background-color: aqua;">
+        <div class="value-prop-header-flexbox">
+            <div class="left-div">
+                <h2>Our Value Proposition</h2>
+                <p>Our value proposition is to help construction companies to digitally transform their business by
+                    providing them with a suite of digital tools that will help them to improve their margins and
+                    increase their productivity.
+                </p>
+            </div>
+            <div class="right-div">
+                <img src="./assets/images/value-prop-image.jpg"
+                    alt="Picture of a man and a woman looking at construction drawings on a table"
+                    class="value-prop-img">
+            </div>
         </div>
-        <div>
-            <img src="./assets/images/value-prop-image.jpg"
-                alt="Picture of a man and a woman looking at construction drawings on a table" id="value-prop-img">
-        </div>
-        <div id="value-prop-flexbox">
+
+        <div class="value-prop-flexbox">
             <div>
                 <h3>Schedule A Meeting</h3>
                 <p>Get in contact today</p>
@@ -117,16 +120,20 @@
                 <p>Start using our digital tools to improve your margins and increase your productivity</p>
             </div>
         </div>
+
+        <div class="value-prop-button-div">
+            <button class="value-prop-button">Schedule A Meeting</button>
+        </div>
     </section>
 
     <!-- This is the footer -->
     <footer>
-        <div id="footer-flexbox">
-            <div id="footer-left">
-                <div id="footer-logo">
+        <div class="footer-flexbox">
+            <div class="footer-left">
+                <div class="footer-logo">
                     <img src="./assets/images/trave-logo.png" alt="Trave Logo">
                 </div>
-                <div id="footer-links">
+                <div class="footer-links">
                     <ul>
                         <li><a href="#the-plan-section">The Plan</a></li>
                         <li><a href="#guide-section">The Guide</a></li>
