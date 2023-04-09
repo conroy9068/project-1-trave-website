@@ -33,7 +33,7 @@
     </header>
 
     <!-- This is the hero section -->
-    <section id="hero-outer">
+    <section class="hero-outer">
         <div id="hero-image"></div>
 
         <!-- This is the cover text -->
@@ -47,11 +47,11 @@
     </section>
 
     <!-- This is the challenges section -->
-    <section id="challenges-section">
+    <section class="challenges-section">
         <div class="challenges-h2">
             <h2>Do You Face These Challenges?</h2>
         </div>
-        <div class="flexbox">
+        <div class="challenges-flexbox">
             <div class="l-ch-con">
                 <img src="./assets/images/challenge-1.jpg"
                     alt="Picture of a man in high viz gear working on construction site">
@@ -70,24 +70,24 @@
     </section>
 
     <!-- This is the solution section -->
-    <section id="solution-section">
-        <div>
+    <section class="solution-section">
+        <div class="solution-section-header">
             <h2>Gain Control. Improve Your Margins</h2>
             <p>Gain a new level of transparency and control over your construction business with our made to measure
                 digital tools.
             </p>
         </div>
-        <div class="flexbox">
-            <div class="box">Item one</div>
-            <div class="box">Item two</div>
+        <div class="solution-sec-flexbox">
+            <div class="solution-box">Item one</div>
+            <div class="solution-box">Item two</div>
         </div>
         <div>
-            <div class="flexbox">
-                <div class="box">Item three</div>
-                <div class="box">Item four</div>
+            <div class="solution-sec-flexbox">
+                <div class="solution-box">Item three</div>
+                <div class="solution-box">Item four</div>
             </div>
         </div>
-        The stakes
+        SOLUTION SECTION ABOVE
     </section>
 
     <!-- This is the value proposition section -->
@@ -101,7 +101,7 @@
         </div>
         <div>
             <img src="./assets/images/value-prop-image.jpg"
-                alt="Picture of a man and a woman looking at construction drawings on a table">
+                alt="Picture of a man and a woman looking at construction drawings on a table" id="value-prop-img">
         </div>
         <div id="value-prop-flexbox">
             <div>
@@ -119,18 +119,23 @@
         </div>
     </section>
 
-    <!-- This is the guide section -->
-    <section id="guide-section">
-        The guide
-    </section>
-
-    <!-- This is the plan section -->
-    <section id="the-plan-section">
-        The plan
-    </section>
-
     <!-- This is the footer -->
     <footer>
+        <div id="footer-flexbox">
+            <div id="footer-left">
+                <div id="footer-logo">
+                    <img src="./assets/images/trave-logo.png" alt="Trave Logo">
+                </div>
+                <div id="footer-links">
+                    <ul>
+                        <li><a href="#the-plan-section">The Plan</a></li>
+                        <li><a href="#guide-section">The Guide</a></li>
+                        <li><a href="#value-prop-section">Value Proposition</a></li>
+                        <li><a href="#solution-section">Solutions</a></li>
+                        <li><a href="#challenges-section">Challenges</a></li>
+                        <li><a href="index.html" class="active">Home</a></li>
+                    </ul>
+                </div>
     </footer>
 
 </body>
