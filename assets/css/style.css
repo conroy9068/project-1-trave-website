@@ -2,7 +2,7 @@
 
 
 * {
-    margin: 0;
+    margin: 0, 0;
     padding: 0;
     border: none;
 }
@@ -156,8 +156,12 @@ h1 {
 }
 
 /* solution section styling */
-.solution-section-header h2,
-p {
+.solution-section-header h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.solution-section-header p {
     text-align: center;
     margin: 10px;
 }
@@ -184,8 +188,67 @@ p {
 .value-prop-img {
     width: 50%;
     height: 50%;
-    float: right;
+    float: center;
 }
+
+.value-prop-header-flexbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.value-prop-header-flexbox div {
+    width: 100%;
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    font-size: medium;
+}
+
+.left-div {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.right-div {
+    margin-right: 30px;
+    text-align: left;
+}
+
+.value-prop-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.value-prop-flexbox div {
+    width: 100%;
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    font-size: medium;
+}
+
+.value-prop-button-div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.value-prop-button {
+    background-color: #632fbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 
 
 
