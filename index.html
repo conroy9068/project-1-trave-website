@@ -16,14 +16,12 @@
     <!-- This is the header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Trave</h1>
+            <img class="trave-nav-logo" src="./assets/images/trave-logo.png" alt="Trave logo">
         </a>
 
         <!-- This is the navigation menu -->
         <nav id="menu">
             <ul>
-                <li><a href="#the-plan-section">The Plan</a></li>
-                <li><a href="#guide-section">The Guide</a></li>
                 <li><a href="#value-prop-section">Value Proposition</a></li>
                 <li><a href="#solution-section">Solutions</a></li>
                 <li><a href="#challenges-section">Challenges</a></li>
@@ -47,7 +45,7 @@
     </section>
 
     <!-- This is the challenges section -->
-    <section class="challenges-section" style="background-color: red;">
+    <section id="challenges-section" class="challenges-section" style="background-color: red;">
         <div class="challenges-h2">
             <h2>Do You Face These Challenges?</h2>
         </div>
@@ -70,7 +68,7 @@
     </section>
 
     <!-- This is the solution section -->
-    <section class="solution-section" style="background-color: aquamarine;">
+    <section id="solution-section" class="solution-section" style="background-color: aquamarine;">
         <div class="solution-section-header">
             <h2>Gain Control. Improve Your Margins</h2>
             <p>Gain a new level of transparency and control over your construction business with our made to measure
@@ -90,7 +88,7 @@
     </section>
 
     <!-- This is the value proposition section -->
-    <section class="value-prop-section" style="background-color: aqua;">
+    <section id="value-prop-section" class="value-prop-section" style="background-color: aqua;">
         <div class="value-prop-header-flexbox">
             <div class="left-div">
                 <h2>Our Value Proposition</h2>
@@ -127,23 +125,27 @@
     </section>
 
     <!-- This is the footer -->
-    <footer>
-        <div class="footer-flexbox">
-            <div class="footer-left">
-                <div class="footer-logo">
-                    <img src="./assets/images/trave-logo.png" alt="Trave Logo">
-                </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="#the-plan-section">The Plan</a></li>
-                        <li><a href="#guide-section">The Guide</a></li>
-                        <li><a href="#value-prop-section">Value Proposition</a></li>
-                        <li><a href="#solution-section">Solutions</a></li>
-                        <li><a href="#challenges-section">Challenges</a></li>
-                        <li><a href="index.html" class="active">Home</a></li>
-                    </ul>
-                </div>
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <a href="#"><img class="footer-logo" src="./assets/images/trave-logo.png" alt="Trave Logo"> </a>
+            </div>
+            <div>
+                <ul class="footer-right">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <li><a href="#value-prop-section">Value Proposition</a></li>
+                    <li><a href="#solution-section">Solutions</a></li>
+                    <li><a href="#challenges-section">Challenges</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/company/traveinnovations/"><img
+                        src="./assets/images/linkedin-app-icon.png"
+                        alt="Linkedin logo. Link to Trave Linkedin Profile"></a>
+            </div>
     </footer>
+
+
 
 </body>
 
