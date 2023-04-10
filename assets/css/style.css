@@ -31,9 +31,10 @@ h1 {
     margin: 10px;
 }
 
-#logo {
+.trave-nav-logo {
+    width: 130px;
+    height: 60px;
     float: left;
-    font-size: 270%;
     margin-left: 30px;
 }
 
@@ -73,7 +74,6 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -259,4 +259,21 @@ h1 {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
+}
+
+.footer-logo {
+    width: 30%;
+    height: 30%;
+    float: left;
+    line-height: 75px;
+}
+
+.footer-right li {
+    margin-right: 20px;
+    list-style-type: none;
+    float: right;
+}
+
+footer {
+    line-height: 75px;
 }
