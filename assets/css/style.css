@@ -13,13 +13,146 @@ body {
     color: #3a3a3a;
 }
 
-/* heading and logo styling */
-
 h1 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+}
+
+/* heading and logo styling */
+.trave-nav-logo {
+    width: 130px;
+    height: 60px;
+    float: left;
+    margin-left: 30px;
+    padding: 0;
+}
+
+/* navigation links */
+
+.nav-bar {
+    background-color: #ccc;
+    width: 100%;
+    line-height: 75px;
+    font-size: 110%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image and cover text */
+.hero-flexbox {
+    margin-top: 100px;
+    display: flex;
+    /* background-color: DodgerBlue; */
+    justify-content: center;
+    background: url('../images/hero-image-cranes.png') no-repeat center center;
+
+}
+
+.hero-flexbox>div {
+    /* background-color: #f1f1f1; */
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.l-hero-div {
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+
+.l-hero-div h1 {
+    margin-left: 50px;
+    padding-left: 40px;
+
+}
+
+.l-hero-div h2,
+h5 {
+    margin-left: 50px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: #2b2b2b;
+    text-align: justify;
+}
+
+.r-hero-div {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.cover-text h2 {
+    flex: 1;
+    color: #fff;
+}
+
+.hero-image-background {
+    height: 600px;
+    width: 100%;
+
+}
+
+.crane-img {
+    width: 90%;
+    height: 90%;
+    float: left;
+}
+
+
+
+/* challenges section styling */
+.l-ch-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-ch-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-ch-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .challenges-h2 {
@@ -31,114 +164,18 @@ h1 {
     margin: 10px;
 }
 
-.trave-nav-logo {
-    width: 130px;
-    height: 60px;
-    float: left;
-    margin-left: 30px;
-}
-
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* hero image and cover text */
-.hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#cover-text h2 {
-    color: #fff;
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image-cranes.png') no-repeat center center;
-
-}
-
-#crane-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image-cranes.png') no-repeat center center;
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 4px;
-
-    width: 400px;
-    height: 300px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(80, 80, 80, 0.7);
-
-    top: 100px;
-    left: 450px;
-
-    position: absolute;
-}
-
-/* challenges section styling */
-.l-ch-con {
-    width: 100%;
-    height: 100%;
-    float: left;
-}
-
-.r-ch-con {
-    width: 100%;
-    height: 100%;
-    float: right;
-}
-
-.c-ch-con {
-    width: 100%;
-    height: 100%;
-    float: left;
-}
-
 .challenges-flexbox img {
     width: 350px;
-    height: 250px;
-
+    height: 300px;
+    border-radius: 5%;
 }
 
+
 /* flexbox styling */
+.challenges-section {
+    padding: 50px;
+}
+
 .challenges-flexbox {
     display: flex;
     flex-direction: row;
@@ -148,14 +185,18 @@ h1 {
 }
 
 .challenges-flexbox div {
-    width: 100%;
-    background: green;
-    padding: 20px;
+    width: 350px;
+    border-radius: 5%;
+    background: rgb(189, 189, 189);
     margin: 10px;
     font-size: medium;
 }
 
 /* solution section styling */
+.solution-section {
+    padding: 50px;
+}
+
 .solution-section-header h2 {
     text-align: center;
     margin: 10px;
@@ -185,6 +226,10 @@ h1 {
 
 
 /* value-proposition styling */
+.value-prop-section {
+    padding: 50px;
+}
+
 .value-prop-img {
     width: 50%;
     height: 50%;
@@ -265,7 +310,6 @@ h1 {
     width: 30%;
     height: 30%;
     float: left;
-    line-height: 75px;
 }
 
 .footer-right li {
@@ -275,5 +319,17 @@ h1 {
 }
 
 footer {
-    line-height: 75px;
+    background-color: #d6d6d6;
+    padding: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: right;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
