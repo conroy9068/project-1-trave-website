@@ -15,12 +15,12 @@
 <body>
     <!-- This is the header -->
     <header>
-        <a href="index.html">
-            <img class="trave-nav-logo" src="./assets/images/trave-logo.png" alt="Trave logo">
-        </a>
 
         <!-- This is the navigation menu -->
-        <nav id="menu">
+        <nav class="nav-bar">
+            <a href="index.html">
+                <img class="trave-nav-logo" src="./assets/images/trave-logo.png" alt="Trave logo">
+            </a>
             <ul>
                 <li><a href="#value-prop-section">Value Proposition</a></li>
                 <li><a href="#solution-section">Solutions</a></li>
@@ -28,20 +28,20 @@
                 <li><a href="index.html" class="active">Home</a></li>
             </ul>
         </nav>
+
     </header>
 
     <!-- This is the hero section -->
-    <section class="hero-outer">
-        <div class="hero-image"></div>
-
-        <!-- This is the cover text -->
-        <div id="cover-text">
-            <h2>Digitally Transforming Construction</h2>
+    <section class="hero-flexbox">
+        <div class="l-hero-div">
+            <h1>Digitally Transforming Construction</h1>
             <h5>We are a bridge between technology and construction for companies who want to transform the way they
                 manage their projects and finances.</h5>
         </div>
 
-        <div id="crane-image"></div>
+        <div class="hero-image-background, r-hero-div">
+            <img class="crane-img" src="./assets/images/hero-crane.png" alt="Picture of a crane">
+        </div>
     </section>
 
     <!-- This is the challenges section -->
@@ -130,17 +130,15 @@
             <div class="footer-logo">
                 <a href="#"><img class="footer-logo" src="./assets/images/trave-logo.png" alt="Trave Logo"> </a>
             </div>
-            <div>
-                <ul class="footer-right">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <li><a href="#value-prop-section">Value Proposition</a></li>
-                    <li><a href="#solution-section">Solutions</a></li>
-                    <li><a href="#challenges-section">Challenges</a></li>
-                </ul>
-            </div>
-            <div>
+            <div class="social-icons">
                 <a href="https://www.linkedin.com/company/traveinnovations/"><img
                         src="./assets/images/linkedin-app-icon.png"
+                        alt="Linkedin logo. Link to Trave Linkedin Profile"></a>
+                <a href="https://www.linkedin.com/company/traveinnovations/"><img
+                        src="./assets/images/twitter-app-icon.png"
+                        alt="Linkedin logo. Link to Trave Linkedin Profile"></a>
+                <a href="https://www.linkedin.com/company/traveinnovations/"><img
+                        src="./assets/images/youtube-app-icon.png"
                         alt="Linkedin logo. Link to Trave Linkedin Profile"></a>
             </div>
     </footer>
