@@ -9,25 +9,29 @@
     <meta name="keywords" content="digital transformation, construction, project management, AI">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
     <title>Trave</title>
 </head>
 
 <body>
     <!-- This is the header -->
     <header>
-
         <!-- This is the navigation menu -->
-        <nav class="nav-bar">
-            <a href="index.html">
-                <img class="trave-nav-logo" src="./assets/images/trave-logo.png" alt="Trave logo">
-            </a>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">TRAVE</label>
             <ul>
-                <li><a href="#value-prop-section">Value Proposition</a></li>
-                <li><a href="#solution-section">Solutions</a></li>
-                <li><a href="#challenges-section">Challenges</a></li>
                 <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#challenges-section">Challenges</a></li>
+                <li><a href="#solution-section">Solutions</a></li>
+                <li><a href="#value-prop-section">Value Proposition</a></li>
             </ul>
         </nav>
+
 
     </header>
 
@@ -35,11 +39,10 @@
     <section class="hero-flexbox">
         <div class="l-hero-div">
             <h1>Digitally Transforming Construction</h1>
-            <h5>We are a bridge between technology and construction for companies who want to transform the way they
-                manage their projects and finances.</h5>
+            <p>We are a bridge between technology and construction for companies who want to transform the way they
+                manage their projects and finances.</p>
         </div>
-
-        <div class="hero-image-background, r-hero-div">
+        <div class="r-hero-div">
             <img class="crane-img" src="./assets/images/hero-crane.png" alt="Picture of a crane">
         </div>
     </section>
@@ -50,17 +53,17 @@
             <h2>Do You Face These Challenges?</h2>
         </div>
         <div class="challenges-flexbox">
-            <div class="l-ch-con">
-                <img src="./assets/images/challenge-1.jpg"
+            <div class="challenge-div">
+                <img src="./assets/images/challenge-1.jpeg"
                     alt="Picture of a man in high viz gear working on construction site">
                 <h3>Controlling Labour & Material Costs</h3>
             </div>
-            <div class="c-ch-con">
+            <div class="challenge-div">
                 <img src="./assets/images/challenge-2.jpeg" alt="Picture of office staff workig on computers">
                 <h3>Time Consuming Admin Processes</h3>
             </div>
-            <div class="r-ch-con">
-                <img src="./assets/images/challenge-3.png"
+            <div class="challenge-div">
+                <img src="./assets/images/challenge-3.jpeg"
                     alt="Diagram showing trave logo pointing to other Software Packages">
                 <h3>Unconnected Software Packages</h3>
             </div>
