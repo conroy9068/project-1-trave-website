@@ -56,12 +56,6 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/footer.png)
 
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __Contact Page__
 
