@@ -2,7 +2,7 @@
 
 Trave is the bridge for construction companies looking to streamline their project management and financial processes. Trave is a software development company bringing technology and construction together, providing a seamless and efficient experience for our clients. With Trave, you'll be able to transform the way you manage your projects and finances, saving time and money in the process.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup]()
 
 ## Features 
 
