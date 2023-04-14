@@ -12,8 +12,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    width: 100%;
-    margin: 0;
+
 }
 
 h1 {
@@ -166,7 +165,7 @@ section {
 }
 
 .challenges-flexbox div {
-    width: 100%;
+    width: 350px;
     height: 100%;
     border-radius: 5%;
     background: #5e7ebf;
@@ -217,8 +216,8 @@ section {
 }
 
 .challenges-flexbox img {
-    width: 350px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     border-radius: 5%;
 }
 
@@ -285,14 +284,16 @@ section {
 
 /* value-proposition styling */
 .value-prop-section {
-    padding: 30px;
+    padding: 10px;
     background-color: #2b3840;
     height: auto;
 }
 
 .value-prop-img {
-    width: 70%;
-    height: 60%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
     float: center;
     border-radius: 5%;
 }
@@ -306,9 +307,7 @@ section {
 }
 
 .value-prop-header-flexbox div {
-    width: 100%;
-    padding: 20px;
-    margin: 10px;
+    flex: 1;
     font-size: medium;
 }
 
@@ -330,7 +329,6 @@ section {
 }
 
 .right-div {
-    margin-right: 30px;
     text-align: center;
 }
 
@@ -349,20 +347,20 @@ section {
 }
 
 .value-prop-flexbox {
+    padding-top: 10px;
     height: auto;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
+    justify-content: space-around;
+    text-align: center;
     align-items: center;
+    align-items: flex-start
 }
 
 .value-prop-div {
-    vertical-align: top;
-    width: 30%;
+    flex: 1;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -416,7 +414,7 @@ section {
 
 footer {
     background: url('../images/hero-image-cranes.png') no-repeat center center;
-    /* background-color: #d6d6d6; */
+    margin-top: auto;
     padding: 50px;
     position: absolute;
     width: 100%;
@@ -595,8 +593,9 @@ footer {
 
     .l-hero-div {
         width: 90%;
-        margin: 0 0;
+        margin: 0 auto;
         text-align: center;
+        padding: 20px 0;
     }
 
     .r-hero-div {
@@ -610,11 +609,35 @@ footer {
     }
 }
 
+/* Media query for challenges section screens smaller than 768px */
+@media (max-width: 767px) {
+    .challenges-flexbox div {
+        width: 350px;
+        height: 100%;
+        border-radius: 5%;
+        background: #5e7ebf;
+        margin: 10px;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* Media query for solution section screens smaller than 768px */
 @media (max-width: 767px) {
     .solution-sec-flexbox {
         flex-direction: column;
         height: auto;
+    }
+
+    .solution-box-left,
+    .solution-box-right {
+        color: #ffffff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -622,10 +645,24 @@ footer {
 @media (max-width: 767px) {
     .value-prop-header-flexbox {
         flex-direction: column;
+    }
+
+    .value-prop-header-flexbox div {
+        width: 100%;
+    }
+
+    .value-prop-flexbox {
+        flex-direction: column;
+    }
+
+    .value-prop-img {
+        width: 100%;
         height: auto;
     }
 
-    .right-div {
+    .value-prop-div {
+        width: 100%;
+        padding-top: 15px;
         text-align: center;
     }
 }
