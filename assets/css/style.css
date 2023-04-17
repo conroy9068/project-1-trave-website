@@ -303,7 +303,7 @@ section {
 }
 
 .left-div {
-    margin-left: 30px;
+    margin-left: auto;
     text-align: center;
 }
 
@@ -366,16 +366,15 @@ section {
 .value-prop-button-div {
     position: relative;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .value-prop-button {
-    width: 30%;
     display: block;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #0088ff;
     border: none;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     margin: 0 auto;
@@ -531,6 +530,7 @@ footer {
 }
 
 .submission-container {
+    font-size: medium;
     text-align: center;
     padding-top: 100px;
 }
