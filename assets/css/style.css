@@ -673,7 +673,7 @@ footer {
 }
 
 /* Media query for contact section screens smaller than 768px */
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     .contact-container {
         margin: 0 auto;
         width: 90%;
