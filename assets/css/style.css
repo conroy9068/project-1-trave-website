@@ -153,6 +153,7 @@ section {
     background-color: #2B3840;
 }
 
+/* challenges card styling */
 .challenges-flexbox {
     display: flex;
     flex-wrap: wrap;
@@ -182,10 +183,17 @@ section {
     padding-bottom: 10px;
 }
 
+/* challenges card image and hover styling */
 .challenge-div img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 5%;
+    transition: transform .2s;
+}
+
+.challenge-div:hover {
+    transform: scale(1.1);
 }
 
 .challenge-div h3 {
@@ -198,12 +206,6 @@ section {
     margin: 0.5em 0;
 }
 
-.l-ch-con h3,
-.r-ch-con h3,
-.c-ch-con h3 {
-    color: white;
-}
-
 .challenges-h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
@@ -211,12 +213,6 @@ section {
     color: #ffffff;
     text-align: center;
     margin: 10px;
-}
-
-.challenges-flexbox img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
 }
 
 /* solution section styling */
@@ -579,8 +575,8 @@ footer {
 }
 
 
-/* Media query for hero section screens smaller than 768px */
-@media screen and (max-width: 768px) {
+/* Media query for hero section screens smaller than 767px */
+@media screen and (max-width: 767px) {
     .hero-flexbox {
         flex-direction: column-reverse;
         align-items: center;
