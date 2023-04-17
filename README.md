@@ -86,6 +86,14 @@ Trave is the bridge for construction companies looking to streamline their proje
 - The contact page was tested to ensure that the form was responsive and that the validation was working correctly. The form was tested to ensure that the submit button was working correctly and it succsefully naviagted to the form-submission.html page.
 - The form submission page was tested to ensure that the text was readable across all device screen sizes. 
 
+- Lighthouse testing was carried out on all three pages of the website. The testing was carried out on the following devices:
+	- Desktop
+	- Mobile
+
+![Desktop Home](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/readme-html-pages/desktop-home-test.html)
+
+
+
 ### Validator Testing 
 
 - HTML
@@ -101,6 +109,7 @@ Nav bar will stay open on mobile device when on the index page trying to browse 
 - The hero image on small devices is not responsive. The top of the image begins to cut off.
 	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
 - The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it.
+- Trave logo text does not link to index.html
 
 ## Deployment
 
@@ -119,3 +128,44 @@ This section should describe the process you went through to deploy the project 
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://conroy9068.github.io/project-1-trave-website/ 
+
+## Credits 
+
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+### Content 
+
+- [Responsive nav bar tutorial](https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/) - This tutorial helped me build a responsive nav bar.
+- [Responsive form section with validation](https://www.youtube.com/watch?v=nwEB3Wxh5N0) - This tutorial helped me build a responsive form section with validation.
+- [A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This guide helped me understand flexbox and how to use it.
+- [Flexbox Frogy](https://flexboxfroggy.com/) Teaching tool for flexbox
+- The content for the website was taken from [Trave](trave.io)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Design
+
+The design for this website was taken from the current company website for Trave. ![Link to current site](https://www.trave.io). My goal was to capture the same structure and layout of the current website while adding my own personal touch.
+
+The new Trave website allows user to navigate through the sections on the home pages. The current website does not allow the user to navigate through the sections on the home page. 
+
+#### Wireframes
+
+The wireframe was created in figma. The wireframe was created using the current Trave website as a guide. 
+
+![Wireframe](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/wireframe.png)
+
+#### Colours
+
+The colour palette was created using [Adobe Color](https://color.adobe.com/create).
+
+![Colour Palette](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/color-palette.png)
+
+#### Typography
+
+The Font is Montserrat 300 from [Google Fonts](https://fonts.google.com/specimen/Montserrat?query=mont)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site [Unsplash](https://unsplash.com/)
