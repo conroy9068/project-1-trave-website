@@ -64,3 +64,8 @@ In this section, you should go over the different parts of your project, and des
 
 ![Contact Page](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/contact-page.png)
 ![Form Validation Sample](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/form-validation.png)
+
+### Features Left to Implement
+
+- A feature I would add is quick links to the footer.
+- I would like to have added circle containers above each of the steps with the numbers 1, 2 and 3 along in the Value proposition section
