@@ -149,8 +149,7 @@ section {
 
 .challenges-section {
     height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 30px;
     background-color: #2B3840;
 }
 
@@ -269,7 +268,6 @@ section {
 .solution-box-left h3,
 .solution-box-right h3 {
     color: #ffffff;
-    font-size: 10px;
     text-align: center;
     margin: 10px;
 }
@@ -277,13 +275,12 @@ section {
 .solution-box-left p,
 .solution-box-right p {
     color: #ffffff;
-    font-size: 10px;
     text-align: center;
 }
 
 /* value-proposition styling */
 .value-prop-section {
-    padding: 10px;
+    padding: 30px;
     background-color: #2b3840;
     height: auto;
 }
