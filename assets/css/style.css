@@ -370,6 +370,21 @@ section {
 }
 
 .value-prop-button {
+    width: 25%;
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.value-prop-button:hover {
+    width: 25%;
     display: block;
     text-align: center;
     background-color: #5e7ebf;
