@@ -364,9 +364,9 @@ section {
 }
 
 .value-prop-button-div {
-    position: relative;
     text-align: center;
     margin-top: 20px;
+    margin: 0, auto;
 }
 
 .value-prop-button {
@@ -402,12 +402,6 @@ section {
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
-}
-
-.footer-logo {
-    width: 30%;
-    height: 30%;
-    float: left;
 }
 
 .footer-right li {
