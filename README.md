@@ -4,10 +4,6 @@ Trave is the bridge for construction companies looking to streamline their proje
 
 ![Responsice Mockup](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/responsiveness.png)
 
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -69,3 +65,57 @@ In this section, you should go over the different parts of your project, and des
 
 - A feature I would add is quick links to the footer.
 - I would like to have added circle containers above each of the steps with the numbers 1, 2 and 3 along in the Value proposition section
+
+## Testing 
+
+- Testing was carried out on all three pages of the website. The testing was carried out on the following devices:
+	- Desktop
+	- Mobile
+
+- The testing was carried out on the following browsers:
+	- Chrome
+	- Firefox
+	- Safari
+
+- Navigation bar testing was done across all screen sizes using the option to resize the browse window within chrome dev tools. The navigation bar was tested to ensure that it was responsive and that the links worked as expected.
+- The landing page image was tested to ensure that it was responsive and that the text was readable across all screen sizes.
+- The challenges section was tested to ensure that each card stacked accordingly to the differnt screen size and that the images where not distorting.
+- The testing on the solutions section was just like the challenges section. Text was tested to ensure that it was readable and that the images were not distorting.
+- The value proposition section was tested to ensure that the text was readable and that the button was responsive. The button was tested to make sure it also worked correctly.
+- The footer was tested to ensure that the social media icon links opened in a new tab and linking to the correct website. The footer was also tested to ensure that it was responsive across all screen sizes.
+- The contact page was tested to ensure that the form was responsive and that the validation was working correctly. The form was tested to ensure that the submit button was working correctly and it succsefully naviagted to the form-submission.html page.
+- The form submission page was tested to ensure that the text was readable across all device screen sizes. 
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://conroy9068.github.io/project-1-trave-website/index.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://conroy9068.github.io/project-1-trave-website/index.html)
+
+  ### Unfixed Bugs
+
+- On modile devices the nav bar will stay open when on the index page trying to browse differnt sections. It will close if you move between the three html pages. Reasearch was done and a possible fix was found using javascript. However, I was unable to implement this fix in time.
+Nav bar will stay open on mobile device when on the index page trying to browse differnt sections. It will close if you move between the three pages. 
+- Scheduale A Meeting button overlays when the nav menu is open on mobile. 
+- The hero image on small devices is not responsive. The top of the image begins to cut off.
+	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
+- The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it.
+
+## Deployment
+
+- The process for setting up this site using GitHub pages was as follows: 
+  - Log in to GitHub and locate the GitHub Repository 
+  - At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
+  - On the left-hand side of the Settings page, under the code and automation section, click on "Pages".
+  - Under "Source", click the dropdown called "None" and select your master branch. 
+  - On the right hand side of the page, under "Enviroments", you will see a link to the deployed site.
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://conroy9068.github.io/project-1-trave-website/ 
