@@ -370,7 +370,7 @@ section {
 }
 
 .value-prop-button {
-    width: 25%;
+    width: 30%;
     display: block;
     text-align: center;
     background-color: #ffffff;
@@ -384,7 +384,6 @@ section {
 }
 
 .value-prop-button:hover {
-    width: 25%;
     display: block;
     text-align: center;
     background-color: #5e7ebf;
@@ -678,5 +677,6 @@ footer {
     .contact-container {
         margin: 0 auto;
         width: 90%;
+        display: inline;
     }
 }
