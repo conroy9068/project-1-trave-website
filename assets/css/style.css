@@ -531,8 +531,8 @@ footer {
 
 /* media queries */
 
-/* Navigation bar media query for screens smaller than 858px */
-@media (max-width: 858px) {
+/* Navigation bar media query for screens smaller than 930px */
+@media (max-width: 930px) {
     .checkbtn {
         display: block;
     }
