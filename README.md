@@ -101,8 +101,8 @@ Trave is the bridge for construction companies looking to streamline their proje
 
   ### Unfixed Bugs
 
-- On modile devices the nav bar will stay open when on the index page trying to browse differnt sections. It will close if you move between the three html pages. Reasearch was done and a possible fix was found using javascript. However, I was unable to implement this fix in time.
-Nav bar will stay open on mobile device when on the index page trying to browse differnt sections. It will close if you move between the three pages. 
+- On modile devices the nav bar will stay open when on the index page trying to browse differnt sections. It will close if you move between the three html 		pages. Reasearch was done and a possible fix was found using javascript. However, I was unable to implement this fix in time.
+- The nav bar will stay open on mobile device when on the index page trying to browse differnt sections. It will close if you move between the three pages. 
 - Scheduale A Meeting button overlays when the nav menu is open on mobile. 
 - The hero image on small devices is not responsive. The top of the image begins to cut off.
 	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
@@ -125,13 +125,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://conroy9068.github.io/project-1-trave-website/ 
-
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+The live link can be found here - ![Link to live site](https://conroy9068.github.io/project-1-trave-website/)
 
 ### Content 
 
@@ -162,8 +156,9 @@ The colour palette was created using [Adobe Color](https://color.adobe.com/creat
 
 #### Typography
 
-The Font is Montserrat 300 from [Google Fonts](https://fonts.google.com/specimen/Montserrat?query=mont)
+The Font is Montserrat 300 from [Google Fonts](https://fonts.google.com/specimen/Montserrat?query=mont) This font was chosen because its the same font used in the company logo but with silighly differnt characteristics.
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site [Unsplash](https://unsplash.com/)
+- There is also some graphics taken from the Trave website. [Trave](https://www.trave.io)
