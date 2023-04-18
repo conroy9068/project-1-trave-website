@@ -45,12 +45,13 @@ nav {
 
 }
 
-label.logo {
+.logo {
     color: white;
     font-size: 35px;
     line-height: 80px;
     padding: 0 20px;
     font-weight: bold;
+    position: relative;
 }
 
 nav ul {
@@ -193,6 +194,7 @@ section {
 }
 
 .challenge-div:hover {
+    transition: all 0.3s;
     transform: scale(1.1);
 }
 
@@ -370,11 +372,12 @@ section {
 }
 
 .value-prop-button {
-    display: block;
+    display: inline-block;
     text-align: center;
-    background-color: #0088ff;
+    background-color: #455986;
     border: none;
     color: white;
+    font-weight: 500;
     padding: 10px 20px;
     font-size: 16px;
     margin: 0 auto;
@@ -383,9 +386,9 @@ section {
 }
 
 .value-prop-button:hover {
-    display: block;
+    display: inline-block;
     text-align: center;
-    background-color: #5e7ebf;
+    background-color: #5FAAD9;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -393,6 +396,8 @@ section {
     margin: 0 auto;
     cursor: pointer;
     border-radius: 10px;
+    transition: all 0.3s;
+    transform: scale(1.1);
 }
 
 /* footer styling */
@@ -418,6 +423,13 @@ footer {
     width: 100%;
 }
 
+.contact-footer {
+    background: #2B3840;
+    margin-top: auto;
+    padding-top: 50px;
+    width: 100%;
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -436,7 +448,7 @@ footer {
     display: flex;
     flex-direction: column;
     place-items: center;
-    background-color: #2b3840;
+    background-image: url('../images/hero-image-cranes.webp');
     color: #fff;
     padding: 115px 0;
     margin: 0;
