@@ -108,7 +108,8 @@ Trave is the bridge for construction companies looking to streamline their proje
 - Scheduale A Meeting button overlays when the nav menu is open on mobile. 
 - The hero image on small devices is not responsive. The top of the image begins to cut off.
 	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
-- The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it.
+- The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it. 
+- The footer overlays on the nav menue on mobile view when viewing the form-submission.html page.
 - Trave logo text does not link to index.html
 
 ## Deployment
