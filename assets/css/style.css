@@ -14,10 +14,9 @@ body {
     color: #3a3a3a;
 }
 
-h1 {
+.h2-heading {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
     color: #252525;
 }
 
@@ -25,7 +24,6 @@ h1 {
 .trave-nav-logo {
     width: 15%;
     height: 15%;
-    display: flex-inline;
     justify-content: space-evenly;
     align-items: center;
     max-width: 1200px;
@@ -379,8 +377,7 @@ section {
 
 .value-prop-button-div {
     text-align: center;
-    margin-top: 20px;
-    margin: 0, auto;
+    margin-top: 1rem;
 }
 
 .value-prop-button {
@@ -605,7 +602,6 @@ footer {
         font-size: 16px;
     }
 }
-
 
 /* Media query for hero section screens smaller than 767px */
 @media screen and (max-width: 767px) {
