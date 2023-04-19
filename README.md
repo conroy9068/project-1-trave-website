@@ -2,7 +2,7 @@
 
 Trave is the bridge for construction companies looking to streamline their project management and financial processes. Trave is a software development company bringing technology and construction together, providing a seamless and efficient experience for our clients. With Trave, you'll be able to transform the way you manage your projects and finances, saving time and money in the process.
 
-![Link To Live Website](https://conroy9068.github.io/project-1-trave-website/index.html)
+[Link To Live Website](https://conroy9068.github.io/project-1-trave-website/index.html/)
 
 ![Responsice Mockup](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/responsiveness.png)
 
@@ -136,7 +136,7 @@ The live link can be found here - ![Link to live site](https://conroy9068.github
 - [Responsive form section with validation](https://www.youtube.com/watch?v=nwEB3Wxh5N0) - This tutorial helped me build a responsive form section with validation.
 - [A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This guide helped me understand flexbox and how to use it.
 - [Flexbox Frogy](https://flexboxfroggy.com/) Teaching tool for flexbox
-- The content for the website was taken from [Trave](trave.io)
+- The content for the website was taken from [Trave](https://www.trave.io)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Design
