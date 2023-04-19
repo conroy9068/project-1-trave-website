@@ -111,6 +111,7 @@ Trave is the bridge for construction companies looking to streamline their proje
 - The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it. 
 - The footer overlays on the nav menue on mobile view when viewing the form-submission.html page.
 - Trave logo text does not link to index.html
+- favicon is not displaying on the browser tab
 
 ## Deployment
 
