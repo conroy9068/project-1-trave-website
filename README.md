@@ -88,6 +88,8 @@ Trave is the bridge for construction companies looking to streamline their proje
 - The contact page was tested to ensure that the form was responsive and that the validation was working correctly. The form was tested to ensure that the submit button was working correctly and it succsefully naviagted to the form-submission.html page.
 - The form submission page was tested to ensure that the text was readable across all device screen sizes. 
 - Trave logo text was noting link to index.html page. I had positioned the logo outside of the nav tag. I moved the logo inside the nav tag and the link worked as expected.
+- Scheduale A Meeting button was overlaying the navigation menu when the nav menu is open on mobile. This was fixed by moving the meeting button div container into the correct position and fixing the css.
+
 
 - Lighthouse testing was carried out on all three pages of the website. The testing was carried out on the following devices:
 	- Desktop
@@ -106,7 +108,6 @@ Trave is the bridge for construction companies looking to streamline their proje
 
 - On modile devices the nav bar will stay open when on the index page trying to browse differnt sections. It will close if you move between the three html 		pages. Reasearch was done and a possible fix was found using javascript. However, I was unable to implement this fix in time.
 - The nav bar will stay open on mobile device when on the index page trying to browse differnt sections. It will close if you move between the three pages. 
-- Scheduale A Meeting button overlays when the nav menu is open on mobile. 
 - The hero image on small devices is not responsive. The top of the image begins to cut off.
 	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
 - The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it. 
@@ -139,6 +140,7 @@ The live link can be found here - ![Link to live site](https://conroy9068.github
 - [Flexbox Frogy](https://flexboxfroggy.com/) Teaching tool for flexbox
 - The content for the website was taken from [Trave](https://www.trave.io)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- This tutorial helped me implement a favicon for the website. [Favicon Tutorial](https://www.w3schools.com/html/html_favicon.asp)
 
 ### Design
 
