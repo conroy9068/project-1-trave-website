@@ -11,19 +11,20 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <!-- Page Title -->
+    <!-- Page Title and favicon -->
     <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 
 <body>
     <!-- This is the header -->
     <header>
-        <a id="nav-logo" href="index.html" aria-label="This link navigates you to the home page">
-            <h1 class="h1-logo"><img src="./assets/images/trave-nav-logo.png" alt="Trave Icon" class="nav-logo-img">
-            </h1>
-        </a>
-        <!-- This is the navigation menu -->
+        <!-- This is the navigation menu with logo link -->
         <nav class="nav">
+            <a id="nav-logo" href="index.html" aria-label="This link navigates you to the home page">
+                <h1 class="h1-logo"><img src="./assets/images/trave-nav-logo.png" alt="Trave Icon" class="nav-logo-img">
+                </h1>
+            </a>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
@@ -43,31 +44,33 @@
                 <li><a href="contact.html" aria-label="This link navigates you to the contact page">Contact Us</a></li>
             </ul>
         </nav>
-        <!-- Contact Form and Map Section -->
-        <section class="contact-section">
-            <!-- Contact Container -->
-            <div class="contact-container">
-                <!-- Map -->
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.958407415889!2d-7.327250522727565!3d53.98576207248165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485e0fda604d6a2d%3A0xcc70279a59d0ef69!2sTrave!5e0!3m2!1sen!2sie!4v1681338426831!5m2!1sen!2sie"
-                        style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <main>
+            <!-- Contact Form and Map Section -->
+            <section class="contact-section">
+                <!-- Contact Container -->
+                <div class="contact-container">
+                    <!-- Map -->
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.958407415889!2d-7.327250522727565!3d53.98576207248165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485e0fda604d6a2d%3A0xcc70279a59d0ef69!2sTrave!5e0!3m2!1sen!2sie!4v1681338426831!5m2!1sen!2sie"
+                            style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="form-container">
+                        <h3>Message Us</h3>
+                        <form action="form-submission.html" class="contact-form">
+                            <label for="your-name">Enter Your Name</label>
+                            <input type="text" id="your-name" required>
+                            <label for="your-email">Enter Your Email</label>
+                            <input type="email" id="your-email" required>
+                            <label for="your-message">Enter Your Message Below</label>
+                            <textarea name="" id="your-message" cols="30" rows="10"></textarea>
+                            <input type="submit" value="Send" class="send-button">
+                        </form>
+                    </div>
                 </div>
-                <!-- Contact Form -->
-                <div class="form-container">
-                    <h3>Message Us</h3>
-                    <form action="form-submission.html" class="contact-form">
-                        <label for="your-name">Enter Your Name</label>
-                        <input type="text" id="your-name" required>
-                        <label for="your-email">Enter Your Email</label>
-                        <input type="email" id="your-email" required>
-                        <label for="your-message">Enter Your Message Below</label>
-                        <textarea name="" id="your-message" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Send" class="send-button">
-                    </form>
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
         <!-- This is the footer -->
         <footer class="contact-footer">
             <div class="footer-left">
