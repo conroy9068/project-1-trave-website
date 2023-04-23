@@ -95,7 +95,9 @@ Trave is the bridge for construction companies looking to streamline their proje
 	- Desktop
 	- Mobile
 
-[Desktop Home](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/readme-html-pages/desktop-home-test.html)
+[Desktop Home](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/lighthouse-test-desktop.png)
+
+[Mobile Home](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/lighthouse-test-mobile.png)
 
 ### Validator Testing 
 
