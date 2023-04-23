@@ -21,25 +21,18 @@ body {
 }
 
 /* heading and logo styling */
-.trave-nav-logo {
-    width: 15%;
-    height: 15%;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .nav-logo-img {
-    height: 5rem;
+    height: 4rem;
+    position: absolute;
+    top: 8px;
     object-fit: cover;
 }
 
 /* navigation links */
 nav {
     overflow: hidden;
-    position: static;
-    top: 0;
+    position: fixed;
     background: #2B3840;
     height: 80px;
     width: 100%;
@@ -78,7 +71,7 @@ nav ul li {
 nav ul li a {
     color: white;
     font-size: 17px;
-    padding: 7px 13px;
+    padding: 7px 8px;
     border-radius: 3px;
     text-transform: uppercase;
 }
@@ -129,7 +122,6 @@ section {
 
 .l-hero-div h2 {
     color: #2b2b2b;
-    text-align: justify;
 }
 
 .l-hero-div p {
@@ -148,7 +140,6 @@ section {
 .hero-image-background {
     height: 600px;
     width: 100%;
-
 }
 
 /* challenges section styling */
@@ -335,7 +326,6 @@ section {
     text-align: center;
 }
 
-
 .value-prop-step-flexbox {
     display: flex;
     justify-content: center;
@@ -410,6 +400,7 @@ section {
 }
 
 /* footer styling */
+
 .footer-flexbox {
     height: 200px;
     flex-direction: row;
@@ -428,7 +419,6 @@ footer {
     background: url('../images/hero-image-cranes.webp') no-repeat center center;
     margin-top: auto;
     padding: 50px;
-    position: absolute;
     width: 100%;
 }
 
@@ -470,7 +460,6 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
     background: #5E7EBF;
     box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
     border-radius: 1rem;
@@ -547,7 +536,17 @@ footer {
 .submission-container {
     font-size: medium;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20rem;
+}
+
+.body-submission {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.main-submission {
+    flex-grow: 1;
 }
 
 /* media queries */
@@ -624,12 +623,10 @@ footer {
     }
 
     .r-hero-div img {
-        width: 70%;
+        width: 60%;
+        padding-top: 7rem;
     }
-}
 
-/* Media query for challenges section screens smaller than 768px */
-@media (max-width: 767px) {
     .challenges-flexbox div {
         width: 350px;
         height: 100%;
@@ -641,27 +638,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-}
 
-/* Media query for solution section screens smaller than 768px */
-@media (max-width: 767px) {
-    .solution-sec-flexbox {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .solution-box-left,
-    .solution-box-right {
-        color: #ffffff;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/* Media query for value prop section screens smaller than 768px */
-@media (max-width: 767px) {
     .value-prop-header-flexbox {
         flex-direction: column;
     }
@@ -683,6 +660,25 @@ footer {
         width: 100%;
         padding-top: 15px;
         text-align: center;
+    }
+
+    .solution-sec-flexbox {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .solution-box-left,
+    .solution-box-right {
+        color: #ffffff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-div img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
