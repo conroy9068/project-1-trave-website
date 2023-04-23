@@ -98,9 +98,9 @@ Trave is the bridge for construction companies looking to streamline their proje
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://conroy9068.github.io/project-1-trave-website/index.html)
+  - No errors were returned when passing through the official [W3C validator](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/html-validation.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://conroy9068.github.io/project-1-trave-website/index.html)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/css-validation-results.png)
 
   ### Unfixed Bugs
 
