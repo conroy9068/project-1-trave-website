@@ -89,6 +89,8 @@ Trave is the bridge for construction companies looking to streamline their proje
 - The form submission page was tested to ensure that the text was readable across all device screen sizes. 
 - Trave logo text was noting link to index.html page. I had positioned the logo outside of the nav tag. I moved the logo inside the nav tag and the link worked as expected.
 - Scheduale A Meeting button was overlaying the navigation menu when the nav menu is open on mobile. This was fixed by moving the meeting button div container into the correct position and fixing the css.
+- The hero image on small devices was not responsive. The top of the image began to cut off. I fixed this with the following css code: padding-top: 7rem; within a media query.
+	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
 
 
 - Lighthouse testing was carried out on all three pages of the website. The testing was carried out on the following devices:
@@ -110,11 +112,7 @@ Trave is the bridge for construction companies looking to streamline their proje
 
 - On modile devices the nav bar will stay open when on the index page trying to browse differnt sections. It will close if you move between the three html 		pages. Reasearch was done and a possible fix was found using javascript. However, I was unable to implement this fix in time.
 - The nav bar will stay open on mobile device when on the index page trying to browse differnt sections. It will close if you move between the three pages. 
-- The hero image on small devices is not responsive. The top of the image begins to cut off.
-	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
 - The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it. 
-- The footer overlays on the nav menue on mobile view when viewing the form-submission.html page.
-- favicon is not displaying on the browser tab
 
 ## Deployment
 
