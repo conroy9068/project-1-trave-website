@@ -87,12 +87,13 @@ Trave is the bridge for construction companies looking to streamline their proje
 - The footer was tested to ensure that the social media icon links opened in a new tab and linking to the correct website. The footer was also tested to ensure that it was responsive across all screen sizes.
 - The contact page was tested to ensure that the form was responsive and that the validation was working correctly. The form was tested to ensure that the submit button was working correctly and it succsefully naviagted to the form-submission.html page.
 - The form submission page was tested to ensure that the text was readable across all device screen sizes. 
+- Trave logo text was noting link to index.html page. I had positioned the logo outside of the nav tag. I moved the logo inside the nav tag and the link worked as expected.
 
 - Lighthouse testing was carried out on all three pages of the website. The testing was carried out on the following devices:
 	- Desktop
 	- Mobile
 
-![Desktop Home](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/readme-html-pages/desktop-home-test.html)
+[Desktop Home](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/readme-html-pages/desktop-home-test.html)
 
 ### Validator Testing 
 
@@ -110,7 +111,6 @@ Trave is the bridge for construction companies looking to streamline their proje
 	![Hero Image Cut Off](https://github.com/conroy9068/project-1-trave-website/blob/main/assets/images/readme-images/hero-img-hidden-on-sml-dev.png)
 - The footer on the form-submission.html page is not sticking to the bottom of the page where i would like it. 
 - The footer overlays on the nav menue on mobile view when viewing the form-submission.html page.
-- Trave logo text does not link to index.html
 - favicon is not displaying on the browser tab
 
 ## Deployment
